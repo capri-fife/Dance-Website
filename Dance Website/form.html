@@ -1,0 +1,44 @@
+<!-- form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BYU Dance - Audition Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BYU Dance Department</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="form.html">Audition Form</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 style="text-align: center;">Audition Application Form</h2> <br>
+    <form id="auditionForm">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <select name="style" required>
+        <option value="">Select Dance Style</option>
+        <option>Ballet</option>
+        <option>Jazz</option>
+        <option>Modern</option>
+        <option>Hip-Hop</option>
+      </select>
+      <textarea name="experience" placeholder="Tell us about your dance experience" required></textarea>
+      <button type="submit">Submit Application</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 BYU Dance Department. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
